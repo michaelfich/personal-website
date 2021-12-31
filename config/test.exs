@@ -20,9 +20,6 @@ config :michael_fich, MichaelFichWeb.Endpoint,
   secret_key_base: "+M3/TK2WHHw75NE7BgqPO1Gy9U9coRRUXlIyl77pr+k+QaU9RzaPJnBjlmQkfRDQ",
   server: false
 
-# In test we don't send emails.
-config :michael_fich, MichaelFich.Mailer, adapter: Swoosh.Adapters.Test
-
 # Print only warnings and errors during test
 config :logger, level: :warn
 
