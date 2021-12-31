@@ -58,9 +58,10 @@ config :michael_fich, MichaelFichWeb.Endpoint,
   live_reload: [
     patterns: [
       ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
-      ~r"priv/gettext/.*(po)$",
       ~r"lib/michael_fich_web/(live|views)/.*(ex)$",
-      ~r"lib/michael_fich_web/templates/.*(eex)$"
+      ~r"lib/michael_fich_web/templates/.*(eex)$",
+      ~r"priv/gettext/.*(po)$",
+      ~r"priv/articles/*/.*(md)$"
     ]
   ]
 

@@ -38,6 +38,8 @@ defmodule MichaelFich.MixProject do
       {:esbuild, "~> 0.3", runtime: Mix.env() == :dev},
       {:gettext, "~> 0.18"},
       {:jason, "~> 1.2"},
+      {:makeup_elixir, ">= 0.0.0"},
+      {:nimble_publisher, "~> 0.1.0"},
       {:phoenix, "~> 1.6.5"},
       {:phoenix_ecto, "~> 4.4"},
       {:phoenix_html, "~> 3.0"},
